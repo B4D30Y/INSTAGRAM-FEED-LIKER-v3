@@ -3,18 +3,18 @@ set_time_limit(0);
 include 'Instagram.class.php';
 clear();
 echo "
- *  INSTAGRAM FEED LIKER [v 3.01]
- *  STATUS @BETA
- *  AUTHOR @DBGRAM
- *  WHATSAPP  +917012045385
- *  RECOMMENDED SLEEP 100s
+ *  DK BotZ Patch [v 1.2020]   *
+ *  DAILY 50-100 Followers     *
+ *  Credits :- B4D_30Y,        *
+ *  Don't use for Re-sale      * 
+ *  RECOMMENDED SLEEP 100s     *
   
     •••••••••••••••••••••••••••••••••••••••••
     
- * Use tools at your own risk.
- * Use this Tool for personal use, not for sale.
- * I am not responsible for your account using this tool.
- * Make sure your account has been verified (Email & Telp).
+ * Only one MAC address can use this script.
+ * Make sure Sleep Time is 65s -75s Minimum
+ * I am not responsible if action block issue for your account using this tool.
+ * Make sure your account 2Step factor is Off.(Notice).
  
 ";
 $username    = getUsername();
@@ -30,7 +30,7 @@ if ($login['status'] == 'success') {
         'sessionid' => $login['sessionid']
     );
 
-    $slee = getComment('[?]  Sleep in Seconds ( RECOMMENDED 100 ) : ');
+    $slee = getComment('[?]  Sleep in Seconds ( RECOMMENDED 100s ) : ');
   
     while (true) {
 
@@ -69,7 +69,7 @@ if ($login['status'] == 'success') {
         echo '•••••••••••••••••••••••••••••••••••••••••' . PHP_EOL . PHP_EOL;
         else:
 
-            echo "Next Run time is 11 AM".PHP_EOL.PHP_EOL;
+            echo "Today Service is over next Run time is 11 AM".PHP_EOL.PHP_EOL;
 
         sleep(rand(100,600));
 
